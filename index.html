@@ -20,12 +20,13 @@
                     <li class="list-item"><a href="#Home">Home</a></li>
                    <li class="list-item"><a href="#Products">Products</a></li>
                     <li class="list-item"><a href="#categories">Categories</a></li>
-                    <li class="list-item"><a href="#categories">About</a></li>
-                    <li class="list-item"><a href="#categories">Contact Us</a></li>
+                    <li class="list-item"><a href="#test">About</a></li>
+                    <li class="list-item"><a href="#footer">Contact Us</a></li>
                 </ul>
             </div>
             <div class="icons">
                 <ul class="icons-list">
+                    <button class="hamburger">&#9776;</button>
                     <li class="icon-items"><img src="./asserts/searchicon.png" alt="searchicon" class="icons-img"></li>
                     <li class="icon-items"><img src="./asserts/carticon.png" alt="carticon" class="icons-img"></li>
                     <li class="icon-items"><img src="./asserts/profileicon.png" alt="profileicon" class="icons-img"></li>
@@ -158,10 +159,10 @@
                 </div>
             </div>
             <div class="descriptionContainer">
-                <h4 class="chairname">Description</h4>
-                <p class="packagepara">Cast Aluminum Outdoor Chaise Lounge As an elegant and classic touch to your outdoor space, this cast Aluminum Chaise Lounge combines the appearance, function and quality all together, offering you with the best experience.
+                <h4 class="chairname sp">Description</h4>
+                <p class="packagepara sp">Cast Aluminum Outdoor Chaise Lounge As an elegant and classic touch to your outdoor space, this cast Aluminum Chaise Lounge combines the appearance, function and quality all together, offering you with the best experience.
                 </p>
-                <select name="seemore" id="seemore" class="seemore">
+                <select name="seemore" id="seemore" class="seemore sp">
                     <option value="seeMore">see More</option>
                 </select>
                 <div class="packageCard">
@@ -185,30 +186,30 @@
     </div>
     <!-- Benefits -->
     <div class="BenefitsSection">
-        <h2 class="heading">Benefits for your expendiency</h2>
+        <h2 class="heading b">Benefits for your expendiency</h2>
         <div class="benefitsContainer">
             <div class="benefitCard">
                 <img src="./asserts/bene1.png" alt="chair1" class="beneimg">
-                <h4 class="chairname">Payment Method</h4>
+                <h4 class="chairname b">Payment Method</h4>
                 <p class="packagepara">We offer flexible payment
                     options, to make easier.</p>
             </div>
             <div class="benefitCard">
                 <img src="./asserts/bene2.png" alt="chair1" class="beneimg">
-                <h4 class="chairname">Return policy</h4>
+                <h4 class="chairname b">Return policy</h4>
                 <p class="packagepara">You can return a product 
                     within 30 days.</p>
             </div>
             <div class="benefitCard">
                 <img src="./asserts/bene3.png" alt="chair1" class="beneimg">
-                <h4 class="chairname">Customer Support</h4>
+                <h4 class="chairname b">Customer Support</h4>
                 <p class="packagepara">Our customer support 
                     is 24/7.</p>
             </div>
         </div>
      </div>
      <!-- Testimonials -->
-      <div class="Testimonials">
+      <div class="Testimonials" id="test">
         <div class="top">
             <h2 class="heading test">Testimonials</h2>
             <p class="packagepara">Over 15,000 happy customers.</p>
@@ -228,14 +229,14 @@
       <div class="news">
         <div class="empty"></div>
         <div class="newscontent">
-            <h3 class="heading test">Join Our Newsletter</h3>
+            <h3 class="heading test n">Join Our Newsletter</h3>
             <p class="packagepara test">Receive exclusive deals, discounts and many offers.</p>
             <input type="email" placeholder="Enter your Email" class="email">
             <center><button class="ExploreBtn">Subcribe</button></center>
         </div>
       </div>
       <!-- footer section -->
-      <div class="footer">
+      <div class="footer" id="footer">
         <div class="footerContent">
             <div class="fcontent1">
                 <div><img src="./asserts/Logo.png" alt="logo" class="footerimg"></div>
@@ -287,7 +288,15 @@
       
       
 
-
-
+<script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const hamburger = document.querySelector(".hamburger");
+        const navLinks = document.querySelector(".menu-list");
+    
+        hamburger.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    });
+</script>   
 </body>
 </html>

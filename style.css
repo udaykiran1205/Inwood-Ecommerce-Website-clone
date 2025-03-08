@@ -1,4 +1,5 @@
 body {
+  width: 100vw;
   height: 100vh;
 }
 .nav_home {
@@ -39,6 +40,13 @@ color: #07484a;
 }
 .icons-list {
   gap: 58px;
+}
+.hamburger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .Home {
@@ -469,4 +477,116 @@ color: #07484a;
 .account{
   text-align: center;
   color: #07484A;
+}
+/* Responsive Design */
+@media (max-width: 1050px) { 
+  .home-content{
+    font-size: 40px;
+  }
+  .description{
+    font-size: 18px;
+  }
+  .nav_home{
+    padding: 20px;
+  }
+  
+  .menu-list {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      right: 20px;
+      background: white;
+      width: 200px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      padding: 10px;
+      border-radius: 5px;
+  }
+
+  .menu-list.active {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Adds spacing between links */
+}
+
+.menu-list li {
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.menu li:last-child {
+    border-bottom: none;
+}
+  .hamburger {
+      display: block;
+  }
+.category-section{
+  padding: 0px;
+}
+.mainBox{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.side-menu{
+  width: 90%;
+  border: none;
+}
+.search-bar{
+  display: none;
+}
+.menuBoxList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0px;
+
+}
+.content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productCardContainer{
+  overflow-x: hidden;
+}
+.packageContainer{
+  margin-bottom: 50px;
+}
+.descriptionContainer{
+  display: none;
+}
+.b{
+  font-size: 20px;
+  line-height: 30px;
+}
+.BenefitsSection{
+  padding: 10px;
+}
+.benefitsContainer{
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.leftpic{
+  display: none;
+}
+.empty{
+  display: none;
+}
+.newscontent{
+  width: 100vw;
+
+}
+.n{
+  font-size: 40px;
+}
+.footerContent{
+  flex-wrap: wrap;
+}
+.fcontent1,.fcontent{
+  border: 1px solid rgb(237, 234, 234);
+}
 }
