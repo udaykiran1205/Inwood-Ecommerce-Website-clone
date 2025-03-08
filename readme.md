@@ -4,19 +4,14 @@
 The **Inwood E-Commerce Website Clone** is a fully responsive web application replicating the features and functionalities of a modern e-commerce platform. The project is designed to provide a seamless online shopping experience with user authentication, product browsing, cart management, and checkout functionality.
 
 ## Features
-- **User Authentication:** Secure login and registration system.
 - **Product Listing:** Display a variety of products with filtering and sorting options.
 - **Product Details Page:** Detailed view of each product with pricing and descriptions.
 - **Shopping Cart:** Add, remove, and update cart items.
-- **Checkout System:** Place orders with payment gateway integration.
 - **Responsive Design:** Mobile-friendly UI for seamless user experience.
 
 ## Tech Stack
-- **Frontend:** HTML, CSS, JavaScript, React.js
-- **Backend:** Node.js, Express.js
-- **Database:** MongoDB
-- **Authentication:** JWT (JSON Web Tokens)
-- **Styling:** Tailwind CSS / Bootstrap
+- **Frontend:** HTML, CSS, JavaScript
+- **Styling:**  CSS 
 
 ## Installation
 1. Clone the repository:
