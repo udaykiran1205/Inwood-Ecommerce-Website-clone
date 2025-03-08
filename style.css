@@ -1,0 +1,472 @@
+body {
+  height: 100vh;
+}
+.nav_home {
+  background-color: #d3d3d3;
+  border-bottom-right-radius: 62px;
+  border-bottom-left-radius: 62px;
+  padding: 26px 130px;
+  background-image: url("./asserts/Image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.nav-container {
+  height: 88px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #07484a;
+}
+.image {
+  height: 36px;
+  width: 144px;
+}
+.menu-list,
+.icons-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  list-style: none;
+  cursor: pointer;
+}
+.list-item a{
+text-decoration: none;
+color: #07484a;
+}
+.icons-list {
+  gap: 58px;
+}
+
+.Home {
+  padding: 80px 135px 100px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.home-content {
+  width: 668px;
+  height: 150px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 85.31px;
+  color: #07484a;
+}
+.description {
+  width: 539px;
+  height: 33.06px;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32.68px;
+  color: #07484a;
+  padding-bottom: 20px;
+}
+.shopnow-btn {
+  width: 230px;
+  height: 80px;
+  border-radius: 10px;
+  padding: 20px;
+  color: #fdfbf8;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #70908b;
+  line-height: 32.68px;
+  border: none;
+}
+
+.category-section {
+  padding: 80px 0px 100px 150px;
+
+}
+.heading{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 64px;
+    font-weight: 700;
+    /* line-height: 85.31px; */
+    color: #07484a;
+    text-align: center;
+}
+.mainBox{
+    display: flex;
+    gap: 50px;
+    width: 89vw;
+    /* overflow:hidden; */
+}
+.side-menu{
+    border: 1px solid #d3d3d3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 200px;
+    gap: 20px;
+    padding: 10px;
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.search-bar{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px;
+}
+.searchbarImg{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.searchBar{
+    width: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+}
+.searchBar::placeholder {
+    font-size: 18px;
+}
+.searchBar:focus-visible{
+    outline: none;
+}
+
+.MenuBox{
+    gap: 20px;
+    overflow-y: scroll;
+}
+
+.menuBoxList{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 35px;
+    color:#07484a ;
+}
+.catBtn{ 
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    color: #fdfbf8;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #07484a;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+  }
+  .content{
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+.card{
+  border: 1px solid lightgray;
+  width: 350px;
+  height: 240px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  /* background-image: url(''); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  flex-shrink: 0;
+  flex-grow: 1;
+  
+}
+.Bedroom{
+  background-image: url('./asserts/bedroom.jpg');
+}
+.Dinning{
+  background-image: url('./asserts/dinning.jpg');
+}
+.Meeting{
+  background-image: url('./asserts/meeting.png');
+}
+.Workspace{
+  background-image: url('./asserts/workspace.png');
+}
+.Living{
+  background-image: url('./asserts/livingroom.jpg');
+}
+.Kitchen{
+  background-image: url('./asserts/kitchen.png');
+}
+.cat-name{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 40px;
+  color: #064e50;
+}
+.ExploreBtn{
+  width: 150px;
+  height: 53px;
+  padding: 14px 20px;
+  border-radius: 6px;
+  background-color: #064e50b5;
+  color: #ffffffcf;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+/* products */
+.productSection{
+  background-image: url('./asserts/bgchair.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-bottom: 20px;
+
+}
+.productCardContainer{
+  display: flex;
+  padding-left: 82px;
+  gap:32px;
+}
+.productCard{
+  width: 250px;
+  height: 300px;
+  padding: 40px;
+  gap: 40px;
+  border-radius: 16px;
+  background-color: #CAF3E5;
+  margin-bottom: 20px;
+}
+.productImg{
+  width: 250px;
+  height: 200px;
+}
+.chairname{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  color: #70908B;
+  line-height: 2.5px;
+}
+.chairdes{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  color: #70908B;
+  line-height: 2.5px;
+}
+.cost{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 18px;
+  font-weight: 700;
+  color: #70908B;
+}
+.productCard.card2{
+  background-color: #E0EFF6;
+}
+.productCard.card3{
+  background-color: #EEEBFF;
+}
+.productCard.card4{
+  background-color: #FFF4E7;
+}
+
+/* special package */
+.specialPackage{
+  padding: 100px 50px;
+  margin-bottom: 100px;
+  
+}
+.packageContainer{
+  display: flex;
+  gap: 100px;
+  width: 100vw;
+}
+.samplepackContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 522px;
+  height: 256px;
+}
+.spimg{
+  width: 522px;
+  height: 356px;
+}
+.bottomsection{
+  display: flex;
+  justify-content: space-between;
+}
+.checked{
+  color: orange;
+}
+.descriptionContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  width: 683px;
+  box-sizing: content-box;
+  
+}
+.packagepara{
+  color: #275e40;
+  
+}
+.seemore{
+  width: 80px;
+  height: 21px;
+  gap: 8px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+
+}
+.packageCard{
+  display: flex;
+  width: 597px;
+  height: 183px;
+  gap: 16px;
+}
+.img{
+  background-image: url('./asserts/livingroom.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 688px;
+  height: 183px;
+  border-radius: 10px;
+
+}
+.packdetails{
+  display: flex;
+  flex-direction: column;
+  width: 688px;
+  height: 150px;
+  gap: 14px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #E0F6F1;
+}
+/* benefits section */
+.BenefitsSection{
+  padding: 30px 150px;
+  background-color: #E0EFF6;
+ 
+  height: 420px;
+  margin-bottom: 50px;
+}
+.benefitsContainer{
+  display: flex;
+  gap: 50px;
+  padding: 0px 100px;
+}
+.benefitCard{
+  width: 230px;
+  padding: 10px 50px;
+  margin-bottom: 20px;
+}
+.packagepara{
+  text-align: center;
+}
+.Testimonials{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 100px 150px;
+}
+.test{
+  line-height: 2px;
+}
+.testContainer{
+  display: flex;
+  gap: 40px;
+}
+.leftpic{
+  width: 221px;
+  height: 210px;
+  border-radius: 20px;
+  background-color: #D9D9D9;
+  margin-top: 20px;
+}
+.rightcontent{
+  width: 800px;
+  height: 301px;
+}
+.Content{
+  font-family: Open Sans;
+  font-weight: 400;
+  font-size: 35px;
+  color: #07484A;
+}
+.name{
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1px;
+  color: #07484A;
+}
+.disgnation{
+  font-family: Roboto;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 1px;
+  color: #07484A;
+}
+  /* news */
+.news{
+  padding: 60px 150px;
+  display: flex;
+  /* gap: 50px; */
+}
+.empty{
+  width: 50%;
+  height: 300px;
+  background-color: #D9D9D9;
+}
+.newscontent{
+  display: flex;
+  flex-direction: column;
+  background-color: #E0F6F1;
+  width: 50%;
+}
+.email{
+  background: transparent;
+  border: none;
+  padding: 16px;
+  text-align: center;
+}
+.email:focus-visible{
+  outline: none;
+}
+/* footer */
+.footer{
+  padding: 100px 150px;
+  background-color: #F3F6F5;
+}
+.footerContent{
+  display: flex;
+  justify-content: space-between;
+}
+.fcontent1{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.footerAddress{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #07484A;
+}
+.fcontent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.account{
+  text-align: center;
+  color: #07484A;
+}
